@@ -17,10 +17,10 @@
         <div class="heading">
           <nav class="general-nav_bar">
             <ul>
-              <li><a href="#">Home</a></li>
-              <li><a href="#">Band</a></li>
-              <li><a href="#">Tour</a></li>
-              <li><a href="#">Contact</a></li>
+              <li><a href="#sec_1">Home</a></li>
+              <li><a href="#sec_2">Band</a></li>
+              <li><a href="#sec_3">Tour</a></li>
+              <li><a href="#sec_4">Contact</a></li>
               <li>
                 <div class="custom-select">
                   <select>
@@ -36,14 +36,14 @@
             </ul>
           </nav>
           <div class="pixels_theme">
-            <span><a href="#">Home</a></span>
+            <span><a href="#sec_1">Home</a></span>
             <input type="checkbox" id="nav-toggle" class="nav-toggle" />
             <nav class="nav_special_button">
               <ul>
-                <li><a href="#">Band</a></li>
-                <li><a href="#">Tour</a></li>
-                <li><a href="#">Contact</a></li>
-                <li><a href="#">Merch</a></li>
+                <li><a href="#sec_2">Band</a></li>
+                <li><a href="#sec_3">Tour</a></li>
+                <li><a href="#sec_4">Contact</a></li>
+                <li><a href="#sec_5">Merch</a></li>
               </ul>
             </nav>
             <label for="nav-toggle" class="nav-toggle-label">
@@ -54,7 +54,7 @@
       </div>
     </header>
     <main>
-      <section class="sec_1">
+      <section class="sec_1" id="sec_1">
         <div>
           <div class="im1">
             <img src="./images/chicago.jpg" alt="" />
@@ -65,7 +65,7 @@
           </div>
         </div>
       </section>
-      <section class="sec_2">
+      <section class="sec_2" id="sec_2">
         <div class="h_end">
           <h2>The band</h2>
           <div class="sec_span">
@@ -100,7 +100,7 @@
           </div>
         </div>
       </section>
-      <section class="sec_3">
+      <section class="sec_3" id="sec_3">
         <div class="sec_in_tour">
           <h2>Tour dates</h2>
           <div class="sec_in_tour-span">
@@ -149,7 +149,7 @@
           </div>
         </div>
       </section>
-      <section class="sec_4">
+      <section class="sec_4" id="sec_4">
         <div class="section_contact">
           <h2>Contact</h2>
           <div class="sec_in_tour-span">
@@ -157,22 +157,22 @@
           </div>
           <div class="section_input">
             <div class="section_det">
-              <div class="input_icon wwwe">
+              <div class="for-ic">
                 <i
                   style="color: black; background-color: white"
-                  class="fa fa-map-marker"
+                  class="fa fa-map-marker fara"
                 ></i>
-                <span> Chicago, US </span>
+                <span> Chicago,US </span>
               </div>
 
-              <div>
+              <div class="for-ic">
                 <i
                   style="left: 0; color: black; background-color: white"
                   class="fa fa-phone"
                 ></i>
                 <span>Phone: +00 151515</span>
               </div>
-              <div>
+              <div class="for-ic">
                 <i
                   style="color: black; background-color: white"
                   class="fa fa-envelope"
@@ -180,43 +180,45 @@
                 <span>Email: mail@mail.com</span>
               </div>
             </div>
-            <div class="sizing-input">
-              <form>
-                <div class="d_style">
-                  <div class="resizing_input">
+            <div class="container">
+              <div class="sizing-input">
+                <form>
+                  <div class="d_style">
+                    <div class="resizing_input">
+                      <input
+                        type="text"
+                        placeholder="Name"
+                        class="input_views"
+                        required
+                      />
+                    </div>
+                    <div class="resizing_input">
+                      <input
+                        type="text"
+                        placeholder="Email"
+                        class="input_views"
+                        required
+                      />
+                    </div>
+                  </div>
+                  <div>
                     <input
                       type="text"
-                      placeholder="Name"
+                      placeholder="Message"
                       class="input_views"
                       required
                     />
                   </div>
-                  <div class="resizing_input">
-                    <input
-                      type="text"
-                      placeholder="Email"
-                      class="input_views"
-                      required
-                    />
+                  <div class="button-d">
+                    <button type="submit" class="send_button">Send</button>
                   </div>
-                </div>
-                <div>
-                  <input
-                    type="text"
-                    placeholder="Message"
-                    class="input_views"
-                    required
-                  />
-                </div>
-                <div class="button-d">
-                  <button type="submit" class="send_button">Send</button>
-                </div>
-              </form>
+                </form>
+              </div>
             </div>
           </div>
         </div>
       </section>
-      <section class="sec_5">
+      <section class="sec_5" id="sec_5">
         <div>
           <img src="./images/map.jpg" alt="Map" />
         </div>
